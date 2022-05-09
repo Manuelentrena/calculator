@@ -1,7 +1,8 @@
 const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
-import { antman } from "./classes/basica";
+import { antman, Avenger } from "./classes/basica";
 
-console.log({antman});
+console.log(Avenger.getAvgAge());
+console.log(antman);
 
 function App() {
   return (

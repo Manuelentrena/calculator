@@ -1,19 +1,7 @@
 const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
-import { antman, Avenger } from "./classes/basica";
-import {Batman, SuperHero} from './classes/extends';
-import {magneto, wolverine, Mutante, Xmen} from './classes/abstract';
+import {client} from './interfaces/complejas';
 
-/* console.log(Avenger.getAvgAge()); */
-/* Batman.myHability = "ganar"
-console.log(Batman.myHability); */
-
-const printName = (character: Xmen) => {
-  console.log(character.salvarMundo());
-};
-
-printName(wolverine);
-printName(magneto);
-
+console.log(client.getFullAdress())
 function App() {
   return (
     <div className="App">
